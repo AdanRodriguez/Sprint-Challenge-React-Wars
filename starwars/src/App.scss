@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+/* write your parent styles in here for your App.js */
+
+.App{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+
+  .Header{
+    font-size: 4rem;
+    color:#000000;
+    text-shadow: 2px 2px 8px #FF0000
+  }
+  #cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}
